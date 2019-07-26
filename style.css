@@ -1,0 +1,259 @@
+body {
+  width: 750px;
+  height: 1334px;
+  background-color: #FFFFFF;
+}
+
+#bodypage2{
+	  background: #e8bc38;
+}
+
+
+#background{
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  background-image: url("images/exte3.jpg");
+  background-repeat: no-repeat;
+  filter: blur(1px);
+  z-index: 1;
+}
+
+#logo {
+  position: absolute;
+  top: 55em;
+  left: 20em;
+  z-index: 2;
+}
+
+#logo2 {
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+  width: 183px;
+  height: 39,57px;
+}
+
+
+#categ1{
+  width: 574px;
+  height: 203px;
+  margin-top: 20em;
+  margin-left: 50px;
+}
+
+.visit{
+ font-family: "GT Super Display Trial";
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 83px;
+ }
+
+.infos{
+  font-size: 65px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+#border{
+	width: 54em;
+	height: 71em;
+	margin-left: 120px;
+	overflow: hidden;
+}
+
+
+#imagefond{
+	border-radius: 308px;
+	overflow: hidden;
+	width: 100em;
+	height: 110em;
+	margin-top: 62px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+nav{
+  color: black;
+  position: fixed;
+  top: 2em;
+  right: 4em;
+  width: 109px;
+  height: 53px;
+  font-family: "GT Sectra Display Trial";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: right;
+}
+
+.titre{
+  margin-left: 15em;
+  margin-top: 50em;
+  margin-bottom: 42em;
+}
+
+#images img{
+	margin-left: 0px;
+	margin-top: 5em;
+}
+
+.indication{
+	margin-left: 12em;
+	margin-bottom: 5em;
+	font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+.description{
+	margin-left: 2em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.3em;
+}
+
+.bold{
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.feature{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 6em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	margin-left: 1em;
+}
+
+.liste{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+	line-height: 1.4em;
+	margin-left: 2em;
+	margin-bottom: 4em;
+}
+
+.liste2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	line-height: 1.4em;
+	margin-left: 2em;
+	margin-bottom: 5em;
+}
+
+.bold2{
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.reserve{
+	font-family: 'Roboto', sans-serif;
+	font-size: 5em;
+	margin-bottom: 2em;
+	font-weight: 700;
+	width: 4.4em;
+	margin-left: 3.3em;
+	background-color: #ffd878;
+}
+
+.indication2{
+	margin-left: 12em;
+	margin-bottom: 5em;
+	font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+
+
+
+
+
+/* start of desktop styles */
+
+@media screen and (width : 375px height: 812px) {
+/* IPHONE X =	375x812 */
+
+body{
+	border: 2px solid green;
+}
+
+
+}
+
+@media screen and (width : 414px height: 736px) {
+/* IPHONE 8 PLUS - 7 PLUS - 6 6S PLUS 	=	414x736*/
+
+
+body{
+	border: 2px solid blue;
+}
+
+
+}
+
+@media screen and (width : 375px height: 667px) {
+/* IPHONE 66S - 7 - 8 	=	375x667*/
+
+body{
+	border: 2px solid orange;
+}
+
+
+}
+
+
+@media screen and (width : 320px height: 568px) {
+/* IPHONE 5	 =	320 x 568 */
+
+body{
+	border: 2px solid red;
+}
+
+}
+
+@media screen and (width : 411px height: 731px) {
+/* ANDROID		411x731*/
+
+body{
+	border: 2px solid violet;
+}
+
+}
+
+@media screen and (width : 360px height: 740px) {
+/* ANDROID		360x740*/
+
+body{
+	border: 2px solid yellow;
+}
+
+}
+
+
+@media screen and (width : 480px height: 853px) {
+/* ANDROID 		480x853*/
+
+body{
+	border: 2px solid pink;
+}
+
+}
+
+@media screen and (width : 360px height: 640px) {
+/* ANDROID 		360x640*/
+
+body{
+	border: 2px solid brown;
+}
+
+}
+
